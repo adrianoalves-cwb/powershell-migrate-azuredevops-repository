@@ -100,8 +100,3 @@ flowchart TD
     Q --> R[End]
 ```
 
-## Important note
-
-The current script now loops over `$gitBranches` correctly after collecting the remote branch names from `origin`.
-
-One behavior to be aware of is that `git config --global http.sslVerify false` changes the global Git configuration on the machine running the script, not only the current repository.
